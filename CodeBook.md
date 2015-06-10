@@ -35,7 +35,7 @@ The set of variables that were estimated from these signals are:
 * mean(): Mean value
 * std(): Standard deviation
 
-# Data acquisition, merge, clean up
+# Data acquisition, merge, clean up, create the summary and write to the summary file
 1. Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzip it
 2. A R script called **run_analysis.R** was created to perform the following procedures
    * Read both the 30% test sample "X_test.txt" as "testx", "y_test.txt" as "testy", and training sample "X_train.txt" as "trainx", "y_train.txt" as "trainy" into the memory.
