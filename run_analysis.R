@@ -36,4 +36,4 @@ dt$activity <- mapvalues(dt$activity,from = c("1","2","3","4","5","6"), to =c("W
 dt0      <- group_by(dt,activity)
 dt_tidy  <- summarise_each(dt0,funs(mean))
 
-write.table(dt_sum, file="activity_tidy.txt",row.names=FALSE)
+write.table(dt_tidy, file="activity_tidy.txt",row.names=FALSE)
